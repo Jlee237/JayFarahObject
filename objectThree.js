@@ -31,3 +31,20 @@ const food = {
 };
 
 console.log(food.meals[3]);
+
+
+const people = [{
+  name: 'Jay',
+  jobTitle: 'Unemployed',
+},{
+  name: 'Kay',
+  jobTitle: 'loan officer',
+},{
+  name: 'Kim',
+  jobTitle: 'student',
+}];
+
+for (let i=0; i< people.length; i++) {
+  console.log(`${people[i].name} ${people[i].jobTitle}`);
+}
+
