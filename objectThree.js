@@ -24,3 +24,10 @@ const objectOne = {
 for (let key in objectOne) {
   console.log(`${key}: ${objectOne[key]}`);
 }
+
+
+const food = {
+  meals: ['breakfast', 'second breakfast', 'elevenses', 'lunch', 'afternoon tea', 'dinner', 'supper']
+};
+
+console.log(food.meals[3]);
