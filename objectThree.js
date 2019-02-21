@@ -56,23 +56,81 @@ for (let i=0; i< people.length; i++) {
 }
 
 
-const words = 'craft block argon meter bells brown croon droop';
+function createCharacter(){
+  const Gandalf = {
+    name: 'Gandalf the White',
+    nickname: 'gandalf',
+    race: 'wizard',
+    origin: 'Middle Earth',
+    attack: 10,
+    defense: 6,
+    describe: function() {
+      console.log(`${this.name} is a ${this.race} from ${this.origin}.`);
+    },
+    evaluateFight: function(character){
+      return `Your opponent takes ${x} and you recieve ${y} damage.`;
+    } 
+  };
 
-const decode = {
-  words.split(' ')
-  .map(word => )
-  'a': 2,
-  'b': 3,
-  'c': 4,
-  'd': 5,
+  const Bilbo = {
+    name: 'Bilbo Baggins',
+    nickname: 'bilbo',
+    race: 'Hobbit',
+    origin: 'The Shire',
+    attack: 2,
+    defense: 1,
+    describe: function() {
+      console.log(`${this.name} is a ${this.race} from ${this.origin}.`);
+    },
+    evaluateFight: function(character){
+      return `Your opponent takes ${x} and you recieve ${y} damage.`;
+    } 
+  };
+
+  const Frodo = {
+    name: 'Frodo Baggins',
+    nickname: 'frodo',
+    race: 'Hobbit',
+    origin: 'The Shire',
+    attack: 3,
+    defense: 2,
+    describe: function() {
+      console.log(`${this.name} is a ${this.race} from ${this.origin}.`);
+    },
+    evaluateFight: function(character){
+      return `Your opponent takes ${x} and you recieve ${y} damage.`;
+    } 
+  };
+
+  const Aragorn = {
+    name: 'Aragorn son of Arathorn',
+    nickname: 'aragorn',
+    race: 'man',
+    origin: 'Dunnedain',
+    attack: 6,
+    defense: 8,
+    describe: function() {
+      console.log(`${this.name} is a ${this.race} from ${this.origin}.`);
+    },
+    evaluateFight: function(character){
+      return `Your opponent takes ${x} and you recieve ${y} damage.`;
+    } 
+  };
+
+  const Legolas = {
+    name: 'Legolas',
+    nickname: 'legolas',
+    race: 'elf',
+    origin: 'Woodland Realm',
+    attack: 8,
+    defense: 5,
+    describe: function() {
+      console.log(`${this.name} is a ${this.race} from ${this.origin}.`);
+    },
+    evaluateFight: function(character){
+      return `Your opponent takes ${x} and you recieve ${y} damage.`;
+    } 
+  };
 }
 
-words should be in single string
-  
-function decodeWords (){
-}
-
-if (words[0]===a) {
-  return word[1]
-}
-
+const characters = [createCharacter()];
