@@ -56,3 +56,23 @@ for (let i=0; i< people.length; i++) {
 }
 
 
+const words = 'craft block argon meter bells brown croon droop';
+
+const decode = {
+  words.split(' ')
+  .map(word => )
+  'a': 2,
+  'b': 3,
+  'c': 4,
+  'd': 5,
+}
+
+words should be in single string
+  
+function decodeWords (){
+}
+
+if (words[0]===a) {
+  return word[1]
+}
+
