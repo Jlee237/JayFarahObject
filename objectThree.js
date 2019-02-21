@@ -35,16 +35,24 @@ console.log(food.meals[3]);
 
 const people = [{
   name: 'Jay',
-  jobTitle: 'Unemployed',
+  jobTitle: 'Owner',
 },{
   name: 'Kay',
   jobTitle: 'loan officer',
+  boss: 'John'
 },{
   name: 'Kim',
-  jobTitle: 'student',
+  jobTitle: 'loan officer',
+  boss: 'Fred'
 }];
 
 for (let i=0; i< people.length; i++) {
-  console.log(`${people[i].name} ${people[i].jobTitle}`);
+  if (!people[i].boss){
+    console.log(`${people[i].jobTitle} ${people[i].name} doesn't report to anybody.`);
+  }
+  else{
+    console.log(`${people[i].jobTitle} ${people[i].name} report to ${people[i].boss}.`);
+  }
 }
+
 
