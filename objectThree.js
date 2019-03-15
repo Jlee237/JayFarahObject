@@ -82,10 +82,6 @@ function decode(words){
   return decodedWords.join('');
 }
 
-function decodeWOrds(){
-}
-
-
 //===================================
 // LOTR
 //===================================
